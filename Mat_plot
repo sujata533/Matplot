@@ -1,0 +1,14 @@
+import matplotlib.pyplot as plt
+t=mp.arange(0.0,5.0,0.2)
+plt.plot(t,t,'-',t,t**2,'--',t,t**t,'-.')
+plt.show()
+
+import matplotlib.pyplot as plt
+t=mp.arange(0.0,5.0,0.2)
+plt.plot(t,t,ls='dashed',t,t**2,'dashdot',t,t**t,'solid')
+plt.show()
+
+import matplotlib.pyplot as plt
+t=mp.arange(0.0,5.0,0.2)
+plt.plot(t,t,ls='dashed','c',t,t**2,'dashdot','burlywood',t,t**t,'solid')
+plt.show()
